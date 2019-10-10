@@ -30,6 +30,7 @@ enableDebugConsole[] = {
 #include "cfgEventHandlers.hpp"
 #include "cfgIslands.hpp"
 #include "cfgCivilians.hpp"
+#include "node_modules\grad-leaveNotes\grad_leaveNotes.hpp"
 
 class missionSettings {
 	#include "USER\missionSettings.hpp"
@@ -68,6 +69,7 @@ class CfgFunctions
     #include "node_modules\grad-customGear\cfgFunctions.hpp"
 	#include "node_modules\grad-civs\cfgFunctions.hpp"
 	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
+	#include "node_modules\grad-leaveNotes\cfgFunctions.hpp"
 
 	#include "USER\userFunctions.hpp"
 };
@@ -115,7 +117,9 @@ class Params {
 //SOUNDS =======================================================================
 class CfgSounds {
 	#include "USER\userSounds.hpp"
+    #include "node_modules\grad-leaveNotes\cfgSounds.hpp"
 };
+
 
 
 //GRAD LOADOUT =================================================================
@@ -145,4 +149,16 @@ class CfgGradCustomGear {
 
 class CfgGradFortifications {
     #include "USER\userFortifications.hpp"
+};
+
+//GRAD_leaveNotes===============================================================
+class GRAD_leaveNotes {
+    playerDistance = 1;
+    actOffset[] = {0,0,0.1};
+    actDist = 2;
+    noteObject = "Land_Notepad_F";  
+    startAmount = 10;
+    visibleHandwriting = 1;
+    canWriteDefault = 0;
+    canInspectDefault = 1;
 };
