@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=322;
+		nextID=338;
 	};
 	class Camera
 	{
-		pos[]={11551.91,80.465973,7116.6055};
-		dir[]={0.90663302,-0.39807716,0.140678};
-		up[]={0.39350897,0.91727608,0.061060701};
-		aside[]={0.15335065,1.6731537e-006,-0.98827267};
+		pos[]={8931.5889,184.85204,7190.2661};
+		dir[]={-0.066817842,-0.7518326,-0.65600699};
+		up[]={-0.076188207,0.65929407,-0.74801326};
+		aside[]={-0.99488723,-3.4145341e-007,0.1013338};
 	};
 };
 binarizationWanted=0;
@@ -46057,7 +46057,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11524.806,72.715889,6967.769};
+				position[]={11524.788,72.715752,6967.769};
 			};
 			areaSize[]={1,-1,1};
 			id=2469;
@@ -52943,7 +52943,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setVariable [""message"", ""Koordinaten"", true];" \n "this setVariable [""handwriting"", ""messy"", true]; " \n " " \n "[this] remoteExec [""GRAD_leaveNotes_fnc_initNote"", 0, true];}";
+				init="call{[{(missionNamespace getVariable [""CBA_missionTime"",0]) > 0},{[{ " \n "    _this setVariable [""message"", ""099038"", true]; " \n "    _this setVariable [""handwriting"", ""messy"", true];   " \n "    _this call GRAD_leaveNotes_fnc_initNote; " \n "},_this,5] call CBA_fnc_waitAndExecute},this] call CBA_fnc_waitUntilAndExecute;}";
 			};
 			id=2672;
 			type="Land_Notepad_F";
@@ -54796,6 +54796,15 @@ class Mission
 					class Attributes
 					{
 						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							map="ItemMap";
+						};
 					};
 					id=2707;
 					type="B_Survivor_F";
