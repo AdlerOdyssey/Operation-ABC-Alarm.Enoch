@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11492.352,79.205223,7084.1714};
-		dir[]={0.61957812,-0.66113722,-0.42327273};
-		up[]={0.54598403,0.75017273,-0.37299487};
-		aside[]={-0.56413352,-6.5071799e-007,-0.8257677};
+		pos[]={11495.495,84.58519,7123.2192};
+		dir[]={0.93833601,-0.34402001,0.037059873};
+		up[]={0.34393644,0.93888116,0.01358342};
+		aside[]={0.039467826,-9.1240327e-007,-0.9993186};
 	};
 };
 binarizationWanted=0;
@@ -46055,7 +46055,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11524.792,72.715782,6967.769};
+				position[]={11524.804,72.715874,6967.769};
 			};
 			areaSize[]={1,-1,1};
 			id=2469;
@@ -54786,7 +54786,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11500.183,73.041443,7081.9688};
+						position[]={11499.565,73.042831,7082.9736};
 						angles[]={0,1.4229573,0};
 					};
 					side="West";
@@ -54796,12 +54796,38 @@ class Mission
 						isPlayer=1;
 						class Inventory
 						{
+							class handgun
+							{
+								name="rhs_weap_pb_6p9";
+								muzzle="rhs_acc_6p9_suppressor";
+								class primaryMuzzleMag
+								{
+									name="rhs_mag_9x18_8_57N181S";
+									ammoLeft=8;
+								};
+							};
 							class uniform
 							{
 								typeName="U_B_CombatUniform_mcam";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="rhs_mag_9x18_8_57N181S";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_SCBA_01_F";
+								isBackpack=1;
 							};
 							map="ItemMap";
+							goggles="G_RegulatorMask_F";
 						};
 					};
 					id=2707;
