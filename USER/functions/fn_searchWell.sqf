@@ -14,12 +14,12 @@ private _action1 = [
 			private _contermination = _target getVariable ["grad_user_conterminationLevel", random(5)];
 
 			private _msg = switch (_contermination) do {
-				case 0 : {"No contermination"};
-				case 1 : {""};
-				case 2 : {""};
-				case 3 : {""};
-				case 4 : {""};
-				case 5 : {""};
+				case 0 : {"Keine Kontamination festgestellt"};
+				case 1 : {"Leichte Kontamination festgestellt"};
+				case 2 : {"Leicht erhöhte Kontamination festgestellt"};
+				case 3 : {"Mittelstarke Kontamination festgestellt"};
+				case 4 : {"Erhöhte Kontamination festgestellt"};
+				case 5 : {"Starke Kontamination festgestellt"};
 				default {"No contermination"};
 			};
 
@@ -31,7 +31,7 @@ private _action1 = [
 		};
 		private _fnc_onFailure = {
 			(_this select 0) params ["_player", "_target"];
-			
+
 			// Reset animation
 			[_player, "", 1] call ace_common_fnc_doAnimation;
 		};
@@ -40,7 +40,7 @@ private _action1 = [
 			true
 		};
 
-		[15, [_player, _target], _fnc_onFinish, _fnc_onFailure, "Taking sample ...", _fnc_condition] call ace_common_fnc_progressBar;		
+		[15, [_player, _target], _fnc_onFinish, _fnc_onFailure, "Taking sample ...", _fnc_condition] call ace_common_fnc_progressBar;
     },
     {true},
     {},

@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=338;
+		nextID=346;
 	};
 	class Camera
 	{
-		pos[]={8931.5889,184.85204,7190.2661};
-		dir[]={-0.066817842,-0.7518326,-0.65600699};
-		up[]={-0.076188207,0.65929407,-0.74801326};
-		aside[]={-0.99488723,-3.4145341e-007,0.1013338};
+		pos[]={11492.352,79.205223,7084.1714};
+		dir[]={0.61957812,-0.66113722,-0.42327273};
+		up[]={0.54598403,0.75017273,-0.37299487};
+		aside[]={-0.56413352,-6.5071799e-007,-0.8257677};
 	};
 };
 binarizationWanted=0;
@@ -43342,26 +43342,25 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11498.76,73.776474,7086.208};
-				angles[]={0,4.3629041,0};
+				position[]={11496.888,73.780434,7079.0259};
+				angles[]={0,5.8853469,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="call{[this] call grad_user_fnc_searchWell;}";
+				init="call{this setVariable [""grad_user_conterminationLevel"", 4]; " \n "[this] call grad_user_fnc_searchWell;}";
 			};
 			id=2410;
 			type="Land_ConcreteWell_02_F";
-			atlOffset=0.0070114136;
 		};
 		class Item649
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11495.389,74.134239,7084.2241};
-				angles[]={0.0015822123,4.1328983,6.278389};
+				position[]={11494.131,74.137634,7077.5913};
+				angles[]={-0,4.1328983,6.2784014};
 			};
 			side="Empty";
 			flags=4;
@@ -43370,7 +43369,6 @@ class Mission
 			};
 			id=2411;
 			type="WaterPump_01_forest_F";
-			atlOffset=0.0074005127;
 		};
 		class Item650
 		{
@@ -46057,7 +46055,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11524.788,72.715752,6967.769};
+				position[]={11524.792,72.715782,6967.769};
 			};
 			areaSize[]={1,-1,1};
 			id=2469;
@@ -54788,7 +54786,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11545.716,73.598473,7113.8906};
+						position[]={11500.183,73.041443,7081.9688};
 						angles[]={0,1.4229573,0};
 					};
 					side="West";
