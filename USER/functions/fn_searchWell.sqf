@@ -45,7 +45,7 @@ private _action1 = [
     {true},
     {},
     [],
-    {[0,0,0]}
+    [0,0,0]
 ] call ace_interact_menu_fnc_createAction;
 
 [_obj, 0, ["ACE_MainActions"], _action1] call ace_interact_menu_fnc_addActionToObject;
