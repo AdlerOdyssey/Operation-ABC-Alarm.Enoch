@@ -14,12 +14,12 @@ private _action1 = [
 			private _contermination = _target getVariable ["grad_user_conterminationLevel", random(5)];
 
 			private _msg = switch (_contermination) do {
-				case 0 : {"Keine Kontamination festgestellt"};
-				case 1 : {"Leichte Kontamination festgestellt"};
-				case 2 : {"Leicht erhöhte Kontamination festgestellt"};
-				case 3 : {"Mittelstarke Kontamination festgestellt"};
-				case 4 : {"Erhöhte Kontamination festgestellt"};
-				case 5 : {"Starke Kontamination festgestellt"};
+				case 0 : {"Green - Keine Kontamination festgestellt"};
+				case 1 : {"Green - Leichte Kontamination festgestellt"};
+				case 2 : {"Yellow - Leicht erhöhte Kontamination festgestellt"};
+				case 3 : {"Orange - Mittelstarke Kontamination festgestellt"};
+				case 4 : {"Orange - Erhöhte Kontamination festgestellt"};
+				case 5 : {"Red - Starke Kontamination festgestellt"};
 				default {"No contermination"};
 			};
 
