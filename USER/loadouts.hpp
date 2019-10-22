@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "";
+loadoutFactionBlu = "BwFleck";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 
@@ -28,5 +28,5 @@ loadoutFactionCiv = "";
 
 //#define NIGHTVISION
 //#define GUNLIGHTS
-//#define LASERS
-//#define SUPPRESSORS
+#define LASERS
+#define SUPPRESSORS
