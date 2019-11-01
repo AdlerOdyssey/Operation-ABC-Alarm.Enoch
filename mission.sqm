@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3173;
+		nextID=3175;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=514;
+		nextID=530;
 	};
 	class Camera
 	{
-		pos[]={11504.597,112.43271,7169.2598};
-		dir[]={-0.40522781,-0.54189003,-0.73643559};
-		up[]={-0.26128817,0.84039015,-0.47485194};
-		aside[]={-0.87621003,-3.1989475e-007,0.4821375};
+		pos[]={10042.734,281.94629,4112.6567};
+		dir[]={0.19584122,-0.6053406,0.77158904};
+		up[]={0.14893746,0.79592085,0.58679706};
+		aside[]={0.96933478,-6.9173984e-007,-0.24603206};
 	};
 };
 binarizationWanted=0;
@@ -5757,7 +5757,7 @@ class Mission
 				};
 			};
 			id=729;
-			atlOffset=9.509491;
+			atlOffset=-342.08337;
 		};
 		class Item2
 		{
@@ -27402,7 +27402,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\EKG.jpg""];" \n "this setObjectTexture [1, ""USER\Bilder\Krankheitserreger.jpg""];" \n "}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\EKG.paa""];" \n "this setObjectTexture [1, ""USER\Bilder\Krankheitserreger.paa""];" \n "}";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -56343,7 +56343,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2856;
 			type="Sign_MP_blu_EP1";
@@ -56361,7 +56361,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2858;
 			type="Sign_MP_blu_EP1";
@@ -56379,7 +56379,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2859;
 			type="Sign_MP_blu_EP1";
@@ -56396,7 +56396,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2860;
 			type="Sign_MP_blu_EP1";
@@ -56414,7 +56414,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2861;
 			type="Sign_MP_blu_EP1";
@@ -56424,36 +56424,35 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9919.8037,181.28975,3826.6917};
+				position[]={9919.9766,181.26947,3826.4792};
 				angles[]={6.1817212,3.1415927,6.2826972};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2862;
 			type="Sign_MP_blu_EP1";
-			atlOffset=0.059020996;
 		};
 		class Item874
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9916.96,181.29042,3826.6873};
-				angles[]={6.1817212,3.0981553,6.2826972};
+				position[]={9916.96,181.2906,3826.6875};
+				angles[]={6.1817293,3.0981514,6.2826962};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2863;
 			type="Sign_MP_blu_EP1";
-			atlOffset=0.059829712;
+			atlOffset=0.059997559;
 		};
 		class Item875
 		{
@@ -58849,7 +58848,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2958;
 			type="Sign_MP_blu_EP1";
@@ -58867,7 +58866,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2959;
 			type="Sign_MP_blu_EP1";
@@ -58885,7 +58884,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2960;
 			type="Sign_MP_blu_EP1";
@@ -58903,7 +58902,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\biogefahr.paa""];}";
 			};
 			id=2961;
 			type="Sign_MP_blu_EP1";
@@ -64239,7 +64238,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\Arma.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\Arma.paa""];}";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -64625,7 +64624,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\Arma.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\Arma.paa""];}";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -64832,7 +64831,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\Fifa.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\Fifa.paa""];}";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -64875,7 +64874,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this setObjectTexture [0, ""USER\Bilder\Fifa.jpg""];}";
+				init="call{this setObjectTexture [0, ""USER\Bilder\Fifa.paa""];}";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -66333,6 +66332,7 @@ class Mission
 			};
 			id=3172;
 			type="ModuleEffectsSmoke_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
