@@ -16,6 +16,7 @@ class GRAD_USER {
         class outro {};
         class pickUpItem {};
         class seatPlayers {};
+        class searchWell {};
         class setTimeAndWeather {};
         class unhidePickUp {};
     };
