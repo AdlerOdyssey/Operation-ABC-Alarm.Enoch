@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3390;
+		nextID=3397;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=530;
+		nextID=538;
 	};
 	class Camera
 	{
-		pos[]={11699.816,109.25314,7492.311};
-		dir[]={0.20106223,-0.71886456,-0.66550958};
-		up[]={0.20791884,0.69508284,-0.68820924};
-		aside[]={-0.95731503,4.3073669e-008,-0.28922099};
+		pos[]={4097.6714,356.14136,147.70036};
+		dir[]={0.73887885,-0.64473945,0.19602348};
+		up[]={0.62319094,0.76439148,0.16533065};
+		aside[]={0.25643173,3.663954e-007,-0.96659148};
 	};
 };
 binarizationWanted=0;
@@ -155,13 +155,14 @@ addons[]=
 	"A3_Props_F_Orange_Items_Electronics",
 	"rnt_lkw_7t_mil_gl_kat_i",
 	"CUP_Wheeled_SUV",
-	"A3_Structures_F_Enoch_Wrecks"
+	"A3_Structures_F_Enoch_Wrecks",
+	"ga_heli"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=79;
+		items=80;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -687,6 +688,11 @@ class AddonsMetaData
 			name="Arma 3 Enoch - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item79
+		{
+			className="ga_heli";
+			name="ga_heli";
 		};
 	};
 };
@@ -3842,7 +3848,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1181;
+		items=1184;
 		class Item0
 		{
 			dataType="Layer";
@@ -41258,7 +41264,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11524.788,72.715752,6967.769};
+				position[]={11524.789,72.715752,6967.769};
 			};
 			areaSize[]={1,-1,1};
 			id=2469;
@@ -57673,11 +57679,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11527.347,161.62772,4635.8237};
-				angles[]={6.2815971,2.0896304,6.2767973};
+				position[]={11534.398,161.59827,4633.0801};
+				angles[]={6.2816415,2.0896304,0};
 			};
-			side="Independent";
-			flags=6;
+			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				fuel=0;
@@ -57686,18 +57692,17 @@ class Mission
 			};
 			id=2897;
 			type="LOP_TAK_Civ_Landrover";
-			atlOffset=-1.5258789e-005;
 		};
 		class Item896
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11551.027,161.34814,4621.9023};
-				angles[]={0,5.2152882,0};
+				position[]={11542.284,161.35136,4628.5952};
+				angles[]={0.004796607,5.2152882,6.278389};
 			};
-			side="Independent";
-			flags=6;
+			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				fuel=0;
@@ -57726,6 +57731,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -57851,14 +57857,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11551.022,159.73819,4621.916};
-						angles[]={0,5.2152882,0};
+						position[]={11540.698,159.75143,4626.9878};
+						angles[]={0,0.47485173,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
 						name="car01D";
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -57961,27 +57968,6 @@ class Mission
 			class Attributes
 			{
 			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=2906;
-						item1=2898;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
 			id=2907;
 		};
 		class Item899
@@ -57996,14 +57982,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11527.335,159.78381,4635.8779};
-						angles[]={6.2815971,2.0896304,6.2767973};
+						position[]={11535.438,159.75143,4630.1089};
+						angles[]={0,0.65133941,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
 						name="car02D";
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -58048,7 +58035,6 @@ class Mission
 					};
 					id=2905;
 					type="I_L_Looter_Rifle_F";
-					atlOffset=-1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58096,29 +58082,7 @@ class Mission
 			class Attributes
 			{
 			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=2905;
-						item1=2897;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
 			id=2908;
-			atlOffset=-1.5258789e-005;
 		};
 		class Item900
 		{
@@ -58132,13 +58096,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11554.278,159.90837,4624.5806};
-						angles[]={0,5.1256003,0};
+						position[]={11554.278,159.90843,4624.5806};
+						angles[]={0,5.1255956,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -58194,6 +58159,7 @@ class Mission
 					};
 					id=2910;
 					type="I_L_Looter_SMG_F";
+					atlOffset=6.1035156e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58242,6 +58208,7 @@ class Mission
 			{
 			};
 			id=2909;
+			atlOffset=6.1035156e-005;
 		};
 		class Item901
 		{
@@ -58256,12 +58223,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={11543.461,159.74042,4660.1777};
-						angles[]={0,4.5921707,0};
+						angles[]={0,3.131644,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -58368,12 +58336,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={11544.754,159.74318,4659.6279};
-						angles[]={0,2.7364249,0};
+						angles[]={0,2.7364318,0};
 					};
 					side="Independent";
 					flags=7;
 					class Attributes
 					{
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -61636,13 +61605,14 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={11576.67,157.23352,4718.4858};
-			angle=5.0765667;
+			angle=5.0765686;
 			class Attributes
 			{
 				condition="call{this}";
 				onActivation="call{car01 setFuel 1;" \n "car02 setFuel 1;}";
 				sizeA=6;
 				sizeB=8;
+				activationBy="WEST";
 				isRectangle=1;
 			};
 			id=3025;
@@ -66855,7 +66825,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11746.58,56.501709,7517.6587};
-				angles[]={-0,0.33994281,0};
+				angles[]={0,0.33994281,0};
 			};
 			side="Empty";
 			flags=4;
@@ -66896,7 +66866,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11746.582,57.730556,7517.6436};
-				angles[]={-0,0.33994997,0};
+				angles[]={0,0.33994997,0};
 			};
 			side="Empty";
 			flags=4;
@@ -68944,7 +68914,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11765.06,56.381275,7510.2646};
-				angles[]={-0,0.41653538,6.2639894};
+				angles[]={0,0.41653538,6.2639894};
 			};
 			side="Empty";
 			flags=4;
@@ -68961,7 +68931,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11743.218,57.756546,7518.8037};
-				angles[]={-0,0.33994997,0};
+				angles[]={0,0.33994997,0};
 			};
 			side="Empty";
 			flags=4;
@@ -72172,16 +72142,60 @@ class Mission
 				nAttributes=13;
 			};
 		};
+		class Item1181
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11140.749,176.55841,4340.4438};
+				angles[]={0,1.4888783,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this setVariable [""grad_user_conterminationLevel"", 4]; " \n "[this] call grad_user_fnc_searchWell;}";
+			};
+			id=3390;
+			type="Land_ConcreteWell_02_F";
+		};
+		class Item1182
+		{
+			dataType="Group";
+			side="West";
+			class Attributes
+			{
+			};
+			id=3393;
+			atlOffset=-252.4516;
+		};
+		class Item1183
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4151.6846,324.26306,150.60571};
+				angles[]={6.2671909,3.3906929,0.0015822123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3394;
+			type="CH53_Flecktarn";
+			atlOffset=3.0517578e-005;
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=1171;
+			nextID=1172;
 		};
 		class Links
 		{
-			items=1171;
+			items=1172;
 			class Item0
 			{
 				linkID=0;
@@ -83886,6 +83900,16 @@ class Mission
 			{
 				linkID=1170;
 				item0=3389;
+				item1=178;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1171
+			{
+				linkID=1171;
+				item0=3394;
 				item1=178;
 				class CustomData
 				{
