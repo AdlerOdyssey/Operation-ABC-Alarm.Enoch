@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3406;
+		nextID=3425;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9943.7979,181.84802,3789.7827};
-		dir[]={-0.77680355,-0.48972517,-0.39606351};
-		up[]={-0.43632877,0.87184066,-0.22246946};
-		aside[]={-0.45425892,-4.0154555e-007,0.89094418};
+		pos[]={9919.335,190.56294,3802.1064};
+		dir[]={-0.052794565,-0.40690818,0.91203392};
+		up[]={-0.023538081,0.91329205,0.40662849};
+		aside[]={0.99840939,8.6333603e-007,0.057798836};
 	};
 };
 binarizationWanted=0;
@@ -3851,14 +3851,14 @@ class Mission
 		year=2035;
 		month=7;
 		day=6;
-		hour=8;
-		minute=27;
+		hour=2;
+		minute=-12;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=1188;
+		items=1203;
 		class Item0
 		{
 			dataType="Layer";
@@ -4961,7 +4961,6 @@ class Mission
 							{
 								rank="SERGEANT";
 								description="Schütze";
-								isPlayer=1;
 								isPlayable=1;
 								class Inventory
 								{
@@ -50251,13 +50250,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8929.8115,159.20351,7244.251};
-						angles[]={0,2.4164357,0};
+						position[]={9917.9502,181.16306,3821.802};
+						angles[]={0,6.2523446,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						isPlayer=1;
 						class Inventory
 						{
 							class handgun
@@ -50296,6 +50296,48 @@ class Mission
 					};
 					id=2707;
 					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -72188,15 +72230,255 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9943.4473,181.6907,3789.5745};
-				angles[]={0.004784164,1.4491062,0};
+				position[]={9917.1758,180.95686,3830.3115};
+				angles[]={6.2511969,2.2022758,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=3405;
+			id=3407;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1188
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9919.6455,180.96364,3830.45};
+				angles[]={6.2511969,1.4491062,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3408;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1189
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9907.666,180.98981,3834.1267};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3411;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1190
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9909.084,180.90068,3843.792};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3412;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1191
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9902.749,180.90068,3843.8689};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3413;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1192
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9907.5645,180.98981,3852.3152};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3414;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1193
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9904.8945,180.98981,3855.9714};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3415;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1194
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9900.7744,180.98981,3853.8245};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3416;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1195
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9900.8975,180.98981,3856.0308};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3417;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1196
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9887.2168,180.98981,3855.1638};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3418;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1197
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9900.7764,180.98981,3868.1194};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3419;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9900.7637,180.98981,3865.5818};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3420;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1199
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9896.873,180.98981,3879.8843};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3421;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1200
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9896.7969,180.98981,3877.4321};
+				angles[]={-0,2.2022758,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3422;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1201
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9887.8311,181.79004,3875.5691};
+				angles[]={-0,2.2022758,6.2816415};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3423;
+			type="PortableHelipadLight_01_red_F";
+		};
+		class Item1202
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9891.0928,181.82426,3881.811};
+				angles[]={-0,2.2022758,6.2816415};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3424;
 			type="PortableHelipadLight_01_red_F";
 		};
 	};
