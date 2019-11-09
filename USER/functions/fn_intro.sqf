@@ -1,6 +1,8 @@
-    cutText ["", "BLACK OUT", 0];
-    cutText ["","BLACK FADED", 999];
-    
+cutText ["", "BLACK OUT", 0];
+cutText ["","BLACK FADED", 999];
+
+
+
 [{
     if (isNil "MISSION_ROOT") then {
         if(isDedicated) then {

@@ -1,8 +1,4 @@
-#ifndef MODULES_DIRECTORY
-    #define MODULES_DIRECTORY modules
-#endif
-
-class diwako_cbrn_gasmask {
+class cbrn_gasmask {
     idd = -1;
     movingEnable = false;
     duration = 999999;
@@ -24,6 +20,6 @@ class diwako_cbrn_gasmask {
         y = SafeZoneY - safeZoneH / 4;
         w = safeZoneWAbs;
         h = safeZoneH * 1.5;
-        text = "node_modules\diwako_cbrn\images\gas.paa";
+        text = "scripts\cbrn\images\gas.paa";
     };
 };

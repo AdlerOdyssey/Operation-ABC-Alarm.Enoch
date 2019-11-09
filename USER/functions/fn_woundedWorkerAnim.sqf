@@ -1,5 +1,3 @@
-if (isServer) exitWith {};
-
 wounded_worker_01 switchMove "Acts_CivilInjuredChest_1";
 
 [{ 
