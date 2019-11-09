@@ -32,7 +32,7 @@ _args set [0, _time];
 // private _dir = (linearConversion [0, 4, _max - 0.05 + (random 0.1), 90, -90, true]) mod 360;
 
 if (visibleWatch) then {
-    private _output = _max - 0.05 + (random 0.1);
+    private _output = 0 max (_max - 0.05 + (random 0.1));
     private _ui = uiNamespace getVariable "RscWeaponChemicalDetector";
     private _obj = _ui displayCtrl 101;
      
