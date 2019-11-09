@@ -2,6 +2,9 @@
 *   Wird zum Missionsstart auf Server und Clients ausgeführt.
 *   Funktioniert wie die init.sqf.
 */
+
+[] call cbrn_fnc_init;
+
 if (!hasInterface) exitWith {};
 
 
