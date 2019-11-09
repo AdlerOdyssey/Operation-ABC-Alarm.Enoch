@@ -3,8 +3,6 @@
 *   Funktioniert wie die init.sqf.
 */
 
-[] call cbrn_fnc_init;
-
 if (!hasInterface) exitWith {};
 
 

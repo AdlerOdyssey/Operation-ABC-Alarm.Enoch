@@ -1,3 +1,5 @@
+[true] call cbrn_fnc_init;
+
 if (didJIP) then {
     [player] remoteExec ["grad_common_fnc_addJipToZeus",2,false];
 };
@@ -14,8 +16,10 @@ grad_template_ratingEH = player addEventHandler ["HandleRating",{0}];
                     STHud_UIMode = 0;
                     diwako_dui_main_toggled_off = true;
                     [] call GRAD_USER_fnc_intro;
+                } else {
+                    cutText ["", "BLACK IN", 1];
                 };
-            }else{
+            } else {
                 cutText ["", "BLACK IN", 1];
             };
         },time] call CBA_fnc_waitUntilAndExecute;

@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8908.125,172.35402,6735.6367};
-		dir[]={-0.19639429,-0.78326446,0.58985293};
-		up[]={-0.24743672,0.62168914,0.74315387};
-		aside[]={0.94879121,-1.1554221e-008,0.31590456};
+		pos[]={8932.0518,162.53857,6773.4336};
+		dir[]={0.083267346,-0.51449507,0.85344446};
+		up[]={0.04996001,0.85749286,0.51206505};
+		aside[]={0.99527705,9.7206794e-009,-0.097105511};
 	};
 };
 binarizationWanted=0;
@@ -34508,7 +34508,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{if (local this) then {[this, 0,2, ""body"", ""bullet""] call ace_medical_fnc_addDamageToUnit};}";
+						init="call{if (local this) then {[this, 0.2, ""body"", ""bullet""] call ace_medical_fnc_addDamageToUnit};}";
 						name="wounded_worker_01";
 						stance="Down";
 						class Inventory
@@ -34540,8 +34540,8 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="pitch";
-							expression="_this setpitch _value;";
+							property="HNEG_emed_emtrDieout3ID";
+							expression="false";
 							class Value
 							{
 								class data
@@ -34550,14 +34550,52 @@ class Mission
 									{
 										type[]=
 										{
-											"SCALAR"
+											"STRING"
 										};
 									};
-									value=0.98000002;
+									value="0";
 								};
 							};
 						};
 						class Attribute1
+						{
+							property="HNEG_emed_emtrDieout4ID";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="0";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="HNEG_emed_aedInit";
+							expression=" if (!is3DEN) then { _this call compile _value; }; ";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="true";
+								};
+							};
+						};
+						class Attribute3
 						{
 							property="unitName";
 							expression="_this setname _value;";
@@ -34576,7 +34614,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
+						class Attribute4
 						{
 							property="face";
 							expression="_this setface _value;";
@@ -34595,7 +34633,83 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="HNEG_emed_emtrDieout1ID";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="0";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="HNEG_emed_emitterInit";
+							expression=" if (!is3DEN) then { _this call compile _value; }; ";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="true";
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="HNEG_emed_emtrDieout2ID";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="0";
+								};
+							};
+						};
+						nAttributes=9;
 					};
 				};
 			};
