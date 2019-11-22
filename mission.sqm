@@ -43,7 +43,6 @@ addons[]=
 	"ace_ballistics",
 	"A3_Weapons_F",
 	"ace_smallarms",
-	"acre_main",
 	"A3_Characters_F_Enoch_Facewear",
 	"A3_Characters_F_Enoch",
 	"A3_Weapons_F_Items",
@@ -247,10 +246,10 @@ class AddonsMetaData
 		};
 		class Item11
 		{
-			className="acre_main";
-			name="ACRE2 - Main";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Enoch - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item12
 		{
